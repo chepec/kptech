@@ -35,8 +35,7 @@ dat2df <- function(datafile) {
    # convert $point to numeric (strip extraneous "=")
    df$point <- as.numeric(sub("=", "", df$point))
 
-   # Create a sampleid for the current job (use the folder name)
-   df$substrateid <- ProvideSampleId(datafile, implementation = "dirname")
+   # Create a sampleid for the current job
    df$sampleid <- ProvideSampleId(datafile, implementation = "filename")
    
    return(df)
