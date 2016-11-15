@@ -40,7 +40,8 @@ WF.sample <- function(CPD, WF.tip, version = "2") {
       # That way, you should be able to just cbind() this function's
       # output to your data.
       df <-
-         data.frame(wf = WF.tip + CPD)
+         # make wf negative to adhere to commonly used AVS scale
+         data.frame(wf = -(WF.tip + CPD))
       # wf.mean is the "running" mean (vector of values)
       df$wf.cummean <- dplyr::cummean(df$wf) # previously wf.mean
       # wf.final is the final mean (vector of one, unique value)
