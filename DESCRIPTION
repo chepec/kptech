@@ -11,4 +11,4 @@ Imports:
     utils,
     dplyr,
     stats
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1

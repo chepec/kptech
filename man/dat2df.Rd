@@ -27,4 +27,3 @@ Dataframe with the following columns:
 \description{
 Extracts data from Kelvin probe single-point measurements in *.dat (ASCII) files.
 }
-

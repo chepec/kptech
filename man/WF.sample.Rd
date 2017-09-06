@@ -22,4 +22,3 @@ Calculate WF of sample
 \details{
 use version="2", it calculates more data for you (mean, sd, etc.)
 }
-

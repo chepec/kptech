@@ -17,4 +17,3 @@ scalar, work function of tip
 \description{
 Calculate WF of tip
 }
-
